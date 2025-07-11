@@ -1,0 +1,325 @@
+
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared style */
+
+.text-center{
+  text-align: center;
+}
+
+.secoundary-bg{
+  background-color: rgba(77, 71, 255, 0.1);
+}
+
+.text-primary{
+  color: #4E47FF;
+}
+.dark1{
+  color: #252432;
+}
+
+.dark2{
+  color:rgba(37, 36, 50, 0.5)
+}
+
+.btn-primary{
+  background-color: #4E47FF;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 10px;
+}
+
+.section-title{
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+}
+
+/* Header */
+.header{
+  background-image: url(../Assets/Hero-bg.png);
+}
+
+/* Nav styles */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 150px;
+}
+
+.nav-title{
+  font-weight:900;
+  font-size: 34px;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* banner styles */
+.banner{
+  margin: 158px 250px;
+  text-align: center;
+}
+
+.banner-title{
+  font-weight: bold;
+  font-size: 65px;
+}
+
+/* mainbanner styles */
+
+.mainbanner{
+  display: flex;
+  justify-content:space-between;
+  margin: 0 10%
+}
+
+.mainbanner-title{
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.mainbanner-content{
+  max-width: 517px;
+}
+
+.mainbanner-description{
+  font-weight:normal ;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.mainbanner-photo{
+  width: 403px;
+  border-radius: 48px;
+}
+
+/* main styles */
+
+
+section{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.users{
+  border-radius: 24px;
+  padding: 50px 80px;
+  text-align: center;
+  margin-top: 116px;
+}
+
+.item-description{
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.user-items{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  
+}
+
+.item-title{
+  font-weight: bold;
+  font-size: 80px;
+  color: #4E47FF;
+  margin: 0;
+}
+
+.review-title{
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.mainbanner{
+  margin-top: 268px;
+}
+
+.reviews{
+  margin-top: 137px;
+}
+
+.reviews-container{
+  display: flex;
+  gap: 20px;
+}
+
+.review{
+  padding: 24px;
+  box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.reviewedBy{
+  display:flex;
+  align-items: center;
+  justify-items: start;
+  gap:8px;
+  margin-top:8px;
+}
+.reviewedBy h5,p{
+  margin: 0;
+  
+}
+
+.reviewer-photo{
+  border-radius: 50px;
+}
+
+.review-name{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.review-date{
+  font-size: 12px;
+}
+
+.namee{
+  margin-top: 8px;
+}
+
+.Ready{
+  text-align: center;
+}
+
+.wc-big{
+  height: 364px;
+  width: 840;
+  border-radius: 48px;
+  margin-top: 20px;
+}
+
+.btn-3d{
+  margin-top: 20px;
+  
+}
+
+.ready1{
+  margin-top: 130px;
+  margin-bottom: 70px;
+}
+.touch-form{
+  display: flex;
+  padding: 60px 130px;
+  align-items: center;
+  gap: 100px;
+  justify-content: center;
+}
+
+footer input[type="email"] footer input[type="Name"] {
+  height: 70px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.Touch{
+  background-color: #cce3ec ;
+}
+
+.touch-titles{
+  font-size: 77px;
+}
+
+/* .email1 {
+  font size: top:
+} */
+
+.contact-form input, textarea {
+    /* display: block; */
+    margin-top: 10px;
+    width: 100%;
+     padding: 14px 15px;
+  border: 1px solid #D6DDED;
+  outline: none;
+}
+/* .input{
+  padding: 14px 15px;
+  border: 1px solid #D6DDED;
+  outline: none;
+} */
+
+input.submit-btn {
+    background: #4E47FF;
+    border: 0;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.input-container label {
+    font-weight: 600;
+}
+
+.input-container {
+  margin-top: 12px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer-container {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 64px;
+  font-weight: bold;
+  color: #4a44ff;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #7a7a92;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #7a7a92;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #4a44ff;
+}
