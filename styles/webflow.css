@@ -224,7 +224,7 @@ section{
   margin-top: 130px;
   margin-bottom: 70px;
 }
-.touch-form{
+.user-form{
   display: flex;
   padding: 60px 130px;
   align-items: center;
@@ -247,7 +247,7 @@ footer input[type="email"] footer input[type="Name"] {
   background-color: #cce3ec ;
 }
 
-.touch-titles{
+.user-titles{
   font-size: 77px;
 }
 
