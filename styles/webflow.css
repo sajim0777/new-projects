@@ -91,28 +91,28 @@ nav li a {
 
 /* mainbanner styles */
 
-.mainbanner{
+.main-banner{
   display: flex;
   justify-content:space-between;
   margin: 0 10%
 }
 
-.mainbanner-title{
+.main-banner-title{
   font-weight: bold;
   font-size: 42px;
 }
 
-.mainbanner-content{
+.main-banner-content{
   max-width: 517px;
 }
 
-.mainbanner-description{
+.main-banner-description{
   font-weight:normal ;
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-.mainbanner-photo{
+.main-banner-photo{
   width: 403px;
   border-radius: 48px;
 }
